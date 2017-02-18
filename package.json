@@ -1,21 +1,23 @@
 {
-  "name": "playing-with-lambda",
+  "name": "webpack-bundle-starter",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "build/webpack-bundle-starter.js",
   "scripts": {
     "build": "webpack -p",
-    "start": "node build/playing-with-lambda.js"
+    "start": "node build/webpack-bundle-starter.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/config": "0.0.32",
     "awesome-typescript-loader": "^3.0.4",
     "rimraf": "^2.5.4",
     "typescript": "^2.1.6",
     "webpack": "^2.2.1"
   },
   "dependencies": {
+    "config": "^1.25.1",
     "rxjs": "^5.1.1"
   }
 }
